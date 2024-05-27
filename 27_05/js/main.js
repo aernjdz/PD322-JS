@@ -12,4 +12,6 @@ class PrintMachine {
 
   
 const myPrinter = new PrintMachine('20px', 'red', 'Arial');
-myPrinter.print("Test Task1");
+const myPrinter2 = new PrintMachine("20px","green","Time New Roman")
+myPrinter.print("Test1 Task1");
+myPrinter2.print("Test2 Task1");
