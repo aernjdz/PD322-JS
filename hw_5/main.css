@@ -1,0 +1,121 @@
+/* 1 */
+.task1 {
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+}
+
+#number {
+    padding-right: 10px;
+}
+
+button {
+    display: flex;
+}
+
+/* 2 */
+.task2 {
+    position: relative;
+    width: 59%;
+    height: 200px;
+    background-color: #dde1ed;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.block {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.button {
+    position: absolute;
+    left: 30%;
+    bottom: 60%;
+    transform: translateX(-50%);
+    padding: 5px 20px;
+    background-color: #8199b4;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* 3 */
+.task3 {
+    text-align: justify;
+}
+
+.palette {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.palette div {
+    margin: 2px;
+    display: flex;
+    cursor: pointer;
+}
+
+.task3 p {
+    margin: 50px 70px;
+}
+
+/* task 5 */
+input[id="countryInput"] {
+    width: 300px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+#autoTips {
+    max-height: 150px;
+    width: 300px;
+    overflow-y: auto;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.hint:hover {
+    background-color: #d3d2d2;
+}
+
+/* task 6 */
+table {
+    border-collapse: collapse;
+    width: 180px;
+    font-size: 20px;
+    border: 3px solid #8199b4;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.digit,
+.operator,
+#clear,
+#result {
+    cursor: pointer;
+}
